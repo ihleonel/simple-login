@@ -1,11 +1,9 @@
-import { useState } from "react";
-import { Switch } from "wouter";
+import AppRoutes from "./routes/AppRoutes";
 
 export default function App() {
-  const [state, setState] = useState()
   return (
     <>
-      <Switch></Switch>
+      <AppRoutes />
     </>
   )
 }
