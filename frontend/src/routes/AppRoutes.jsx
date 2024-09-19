@@ -1,8 +1,8 @@
 import { Switch, Route } from 'wouter'
-import ProtectedRoute from './ProtectedRoute'
-import Login from '../pages/Login'
 import Home from '../pages/Home'
 import Dashboard from '../pages/Dashboard'
+import Login from '../pages/Login'
+import ProtectedRoute from './ProtectedRoute'
 export default function AppRoutes() {
   return (
     <Switch>
