@@ -4,7 +4,7 @@ export default function Login() {
   const [username, setUsername] = useState('')
   const [password, setPassword] = useState('')
   const submit = () => {
-    fetch('http://localhost:8000/auth/api/token/', {
+    fetch('http://localhost:8000/auth/api/login/', {
       method: 'POST',
       body: JSON.stringify({username, password}),
       headers: {
