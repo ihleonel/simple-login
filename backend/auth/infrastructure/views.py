@@ -17,7 +17,8 @@ class Login(APIView):
             return Response(user.errors, status=status.HTTP_400_BAD_REQUEST)
 
         user_auth = authenticate(
-            username=user.username, password=user.password)
+            username=user.username, password=user.password
+        )
         if user_auth is None:
             return Response(
                 data={'non_field': 'Invalid Username or Password'},
