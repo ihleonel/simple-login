@@ -19,7 +19,7 @@ Simple login using react (frontend) and django-rest-framework (backend)
 
 1. **Clone the repository:**
    ```bash
-   git clone <repository-url>
+   git clone git@github.com:ihleonel/simple-login.git
    cd simple-login
    ```
 
